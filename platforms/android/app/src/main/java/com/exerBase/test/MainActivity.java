@@ -20,13 +20,16 @@
 package com.exerBase.test;
 
 import android.os.Bundle;
+import android.content.Intent;
+import android.support.v4.view.GestureDetectorCompat;
+import android.os.Bundle;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import org.apache.cordova.*;
 
-public class MainActivity extends CordovaActivity
-{
+public class MainActivity extends CordovaActivity {
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // enable Cordova apps to be started in the background
