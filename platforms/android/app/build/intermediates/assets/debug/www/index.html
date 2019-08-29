@@ -42,8 +42,28 @@
 </head>
 
 <body>
-    Exercere Base Testing Playground 
+    <p> Exercere Base Testing Playground </p>
 
 </body>
+
+<script>
+
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady() {
+    console.log(device.cordova);
+    var platform = device.platform;
+    var uuid = device.uuid;
+    var version = device.version;
+
+    if (platform == 'Android') {
+        //ANDROID: Android specific functionality
+    } else {
+        
+    }
+
+}
+
+</script>
 
 </html>

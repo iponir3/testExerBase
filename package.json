@@ -25,6 +25,12 @@
       "cordova-plugin-geolocation": {},
       "cordova-plugin-globalization": {},
       "cordova-plugin-inappbrowser": {}
-    }
+    },
+    "platforms": [
+      "browser"
+    ]
+  },
+  "dependencies": {
+    "cordova-browser": "^6.0.0"
   }
 }

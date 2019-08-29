@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "testExerBase",
+  "short_name": "testExerBase",
+  "version": "com.exerBase.test",
+  "description": "Sample testing for branch coverage of weekly deliverables",
+  "author": "Exercere Base Test Pre-Deployment",
+  "icons": [],
+  "start_url": "index.html"
+}
