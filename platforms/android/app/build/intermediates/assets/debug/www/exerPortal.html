@@ -49,8 +49,8 @@
 <body>
     
     <!-- Added id, deleted content to demonstrate merges -->
-    <h1 id="exerBase"></h1>
-    <p> Exercere Base Testing Playground </p>
+    <h1 id="exerBasePortal"></h1>
+    <p> Exercere Portal Testing Playground, Redirect Worked!</p>
 
 </body>
 
@@ -68,14 +68,8 @@
         var uuid = device.uuid;
         var version = device.version;
         
-        if (platform == 'Android') {
-            //ANDROID: Android specific functionality
-            window.alert("Android Detected");
-        } else {
-            //window.alert("Browser Detected");
-             window.location.replace("exerPortal.html");
-        }
-    }
+        window.alert("Browser Detected");
+
     </script>
 
 </html>
