@@ -1,5 +1,20 @@
 /* Android platform.css */
 
+/*
 .event.received {
 	background-color: #FF6600
+}
+*/
+
+body {
+
+   background-color: black;
+}
+
+p {
+
+   font-family: sans-serif;
+   color: #FF6600;
+   font-size: 40px;
+   font-style: italic;
 }
