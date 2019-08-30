@@ -10,10 +10,11 @@ package com.exerBase.test;
 public final class R {
   public static final class drawable {
     public static final int android_logo=0x7f010000;
-    public static final int ic_action_next_item=0x7f010001;
-    public static final int ic_action_previous_item=0x7f010002;
-    public static final int ic_action_remove=0x7f010003;
-    public static final int screen=0x7f010004;
+    public static final int exer_img_1=0x7f010001;
+    public static final int ic_action_next_item=0x7f010002;
+    public static final int ic_action_previous_item=0x7f010003;
+    public static final int ic_action_remove=0x7f010004;
+    public static final int screen=0x7f010005;
   }
   public static final class layout {
     public static final int main_layout=0x7f020000;

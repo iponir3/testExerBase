@@ -31,7 +31,7 @@ public class MainActivity extends CordovaActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main_layout);
+        
 
         // enable Cordova apps to be started in the background
         Bundle extras = getIntent().getExtras();
@@ -40,10 +40,11 @@ public class MainActivity extends CordovaActivity {
         }
 
         // Set by <content src="index.html" /> in config.xml
-        //loadUrl(launchUrl);
+        loadUrl(launchUrl);
+        setContentView(R.layout.main_layout);
         
         /*Toast Test */
-        Toast toast = Toast.makeText(getApplicationContext(),"Hello Exer",Toast.LENGTH_SHORT);  
-        toast.show();
+        //Toast toast = Toast.makeText(getApplicationContext(),"Hello Exer",Toast.LENGTH_SHORT);  
+        //toast.show();
     }
 }

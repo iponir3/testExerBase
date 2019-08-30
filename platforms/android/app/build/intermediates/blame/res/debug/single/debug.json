@@ -1,19 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
-        "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
-    },
-    {
         "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_android_logo.png.flat",
         "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable\\android_logo.png"
     },
     {
-        "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
-        "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+        "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_previous_item.png.flat",
+        "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
     },
     {
         "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_layout.xml.flat",
         "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
+        "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
     },
     {
         "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_icon.png.flat",
         "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_exer_img_1.png.flat",
+        "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable\\exer_img_1.png"
     },
     {
         "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi_screen.png.flat",
