@@ -4,8 +4,16 @@
         "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
     },
     {
+        "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable_android_logo.png.flat",
+        "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable\\android_logo.png"
+    },
+    {
         "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-xxxhdpi_screen.png.flat",
         "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\drawable-land-xxxhdpi\\screen.png"
+    },
+    {
+        "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_layout.xml.flat",
+        "source": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\src\\main\\res\\layout\\main_layout.xml"
     },
     {
         "merged": "C:\\Users\\ishty\\Documents\\testExer\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land-mdpi_screen.png.flat",
