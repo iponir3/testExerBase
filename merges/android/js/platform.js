@@ -1,3 +1,3 @@
-var platformConst = {
-	appFull: 'Playground for Android'
+var platformConstants = {
+	appFullName: 'Playground for Android'
 }

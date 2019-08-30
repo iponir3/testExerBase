@@ -19,7 +19,10 @@
 var app = {
     // Application Constructor
     initialize: function() {
-        this.bindEvents();
+      document
+        .getElementById('exerBase')
+        .innerHTML = platformConstants.appFullName
+    this.bindEvents();
     },
     // Bind Event Listeners
     //
