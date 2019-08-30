@@ -54,28 +54,29 @@
 
 </body>
 
-<script type="text/javascript" src="cordova.js"></script>
-<!-- Following line added to demonstrate merges -->
-<script type="text/javascript" src="js/platform.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- Following line added to demonstrate merges -->
+    <script type="text/javascript" src="js/platform.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
-<script>
-document.addEventListener("deviceready", onDeviceReady, false);
+    <script>
+    document.addEventListener("deviceready", onDeviceReady, false);
 
-function onDeviceReady() {
-    console.log(device.cordova);
-    var platform = device.platform;
-    var uuid = device.uuid;
-    var version = device.version;
-    /*
-    if (platform == 'Android') {
-        //ANDROID: Android specific functionality
-    } else {
+    function onDeviceReady() {
+        console.log(device.cordova);
+        var platform = device.platform;
+        var uuid = device.uuid;
+        var version = device.version;
+        
+        if (platform == 'Android') {
+            //ANDROID: Android specific functionality
+            window.alert("Android Detected");
+        } else {
+            window.alert("Browser Detected");
+        }
+    
 
     }
-    */
-
-}
-</script>
+    </script>
 
 </html>

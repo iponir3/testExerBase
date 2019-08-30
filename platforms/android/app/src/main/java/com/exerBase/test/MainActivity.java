@@ -41,7 +41,8 @@ public class MainActivity extends CordovaActivity {
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
         
-        Toast toast = Toast.makeText(getApplicationContext(),"Hello Exer",Toast.LENGTH_SHORT);  
-        toast.show();
+        /*Toast Test */
+        //Toast toast = Toast.makeText(getApplicationContext(),"Hello Exer",Toast.LENGTH_SHORT);  
+        //toast.show();
     }
 }

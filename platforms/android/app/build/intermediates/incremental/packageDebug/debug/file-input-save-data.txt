@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Aug 30 00:26:04 EDT 2019
+#Fri Aug 30 02:18:08 EDT 2019
 124.path=www/plugins/cordova-plugin-media-capture/www/MediaFile.js
 60.set=ASSET
 52.set=ASSET
