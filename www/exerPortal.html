@@ -20,6 +20,7 @@
     under the License.
 -->
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
@@ -44,6 +45,7 @@
     -->
 
     <link rel="stylesheet" type="text/css" href="css/platform.css" />
+
 </head>
 
 <!-- background color not utilized effectivly-->
@@ -61,10 +63,15 @@
 
 </body>
 
-    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="cordova.js">
+    </script>
+
     <!-- Following line added to demonstrate merges -->
-    <script type="text/javascript" src="js/platform.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/platform.js">
+    </script>
+
+    <script type="text/javascript" src="js/index.js">    
+    </script>
 
     <script>
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -76,6 +83,7 @@
         var version = device.version;
         
         //window.alert("Browser Detected");
+    }
 
     </script>
 
