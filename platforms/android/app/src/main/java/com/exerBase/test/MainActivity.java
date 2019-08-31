@@ -28,8 +28,10 @@ import android.widget.Toast;
 import org.apache.cordova.*;
 
 public class MainActivity extends CordovaActivity {
+  
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         
 

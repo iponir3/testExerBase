@@ -72,12 +72,15 @@
 
 </body>
 
-<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="cordova.js">
+</script>
 
 <!-- Following line added to demonstrate merges -->
-<script type="text/javascript" src="js/platform.js"></script>
+<script type="text/javascript" src="js/platform.js">
+</script>
 
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/index.js">
+</script>
 
 <script>
 document.addEventListener("deviceready", onDeviceReady, false);
@@ -112,6 +115,9 @@ function onDeviceReady() {
 
 </script>
 
+<!--
+    Script for Timeout/Timer Fucntionality:
+-->
 <script>
 function move() {
 
@@ -122,10 +128,12 @@ function move() {
   function frame() {
 
     if (width >= 100) {
+
       clearInterval(id);
       window.location.replace("exerPortal.html");
 
     } else {
+
       width++; 
       elem.style.width = width + '%'; 
     }
