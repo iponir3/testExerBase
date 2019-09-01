@@ -72,12 +72,18 @@
 
 </body>
 
-<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="cordova.js">
+</script>
 
 <!-- Following line added to demonstrate merges -->
-<script type="text/javascript" src="js/platform.js"></script>
+<script type="text/javascript" src="js/platform.js">
+</script>
 
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/databaseHandler.js">
+</script>
+
+<script type="text/javascript" src="js/index.js">
+</script>
 
 <script>
 document.addEventListener("deviceready", onDeviceReady, false);
@@ -97,7 +103,7 @@ function onDeviceReady() {
         document.getElementById("exerImg_1").style.display="block";
 
         /*
-         *Alert Used for page changing*
+         *Alert used for page changing*
          //window.alert("Switching Over Portal, 'Kay?");
         */
 
@@ -112,6 +118,9 @@ function onDeviceReady() {
 
 </script>
 
+<!--
+    Script for Timeout/Timer Fucntionality:
+-->
 <script>
 function move() {
 
@@ -122,10 +131,12 @@ function move() {
   function frame() {
 
     if (width >= 100) {
+
       clearInterval(id);
       window.location.replace("exerPortal.html");
 
     } else {
+
       width++; 
       elem.style.width = width + '%'; 
     }
@@ -134,4 +145,24 @@ function move() {
 
 </script>
 
+<!--
+    Framework for HTML Web Storage 
+    TODO: No real use for it now; Skeleton laid out 
+    Size: max 5MB Data Transfer
+
+    Discussion: For backend database:
+        - Stick to local storage
+
+        - Have SQLite database 
+        *Difficult with cross-platform, review GitHub link*
+        https://github.com/xpbrew/cordova-sqlite-storage
+
+        - Have a server side storage like MongoDB, since app is sourced in Node.js
+<script>
+
+    window.localStorage.();
+    //Below stores for only on session
+    window.sessionStorage.(); 
+</script>
+-->
 </html>

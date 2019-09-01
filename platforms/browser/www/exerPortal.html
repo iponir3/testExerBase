@@ -79,10 +79,16 @@
 <script type="text/javascript" src="js/index.js">    
 </script>
 
+<!--
+    Base Script for App Deployement
+    TODO: May not be necessary for future commits
+    ask @mhanberry on data transfer between html pages
+-->
 <script>
 document.addEventListener("deviceready", onDeviceReady, false);
 
     function onDeviceReady() {
+
         console.log(device.cordova);
         var platform = device.platform;
         var uuid = device.uuid;
@@ -94,6 +100,9 @@ document.addEventListener("deviceready", onDeviceReady, false);
     }
 </script>
 
+<!--
+    Script for Timeout/Timer Fucntionality:
+-->
 <script>
     function move() {
 
@@ -104,12 +113,14 @@ document.addEventListener("deviceready", onDeviceReady, false);
       function frame() {
 
         if (width >= 50) {
+
           clearInterval(id);
           //window.location.replace("exerPortal.html");
           window.alert("REQUEST TIMEOUT 408: Server Timed out Due to Inactivity")
           window.location.replace("index.html");
 
         } else {
+
           width++; 
           elem.style.width = width + '%'; 
         }
